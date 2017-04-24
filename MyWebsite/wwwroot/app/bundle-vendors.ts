@@ -1,3 +1,7 @@
+// jquery
+require("jquery");
+require("signalr");
+
 // core
 require("core-js");
 require("zone.js");

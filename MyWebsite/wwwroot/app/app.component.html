@@ -1,1 +1,17 @@
 ﻿<h1>{{title}}</h1>
+
+<div #records style="height:200px; overflow-y: scroll;">
+</div>
+
+<div>
+    <label>Name</label>
+    <div><input type="text" [(ngModel)]="name" /></div>
+</div>
+<div>
+    <label>Message</label>
+    <div><input type="text" [(ngModel)]="message" /></div>
+</div>
+<div>
+    <input type="button" value="Send" (click)="send()" />
+    <input type="button" value="Clear" (click)="clear()" />
+</div>
